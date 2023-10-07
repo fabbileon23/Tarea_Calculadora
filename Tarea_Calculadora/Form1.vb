@@ -144,7 +144,7 @@
             Return
         End If
 
-        'Declaración número de operación y realización de operación
+        'Declaración número de operación y realización de operación potencia
         numAnterior = txtPantalla.Text
         txtPantalla.Clear()
 
