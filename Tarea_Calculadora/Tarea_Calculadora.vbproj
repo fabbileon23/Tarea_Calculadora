@@ -97,6 +97,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -115,6 +118,39 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono cerrar FN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\216188_equals_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9022358_equals_duotone_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9023346_equals_fill_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8665123_0_zero_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9044822_number_small_0_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squared.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8674605_ic_fluent_comma_regular_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comma.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
